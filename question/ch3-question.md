@@ -22,3 +22,7 @@ $an + b \leq (a + |b|) n^2 \Longrightarrow \frac an + \frac b{n^2} \leq a + |b|$
 
 if $(n \geq 1) \land (b > 0)$, $\frac an + \frac b{n^2}  \leq a + b = a + |b|$, and if $(n \geq 1) \land (b \leq 0)$, $\frac an + \frac b{n^2}  \leq a \leq a + |b|$
 
+### 3.1_3 question
+
+![refer3](./refer3.png)
+

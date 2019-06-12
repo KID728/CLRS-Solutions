@@ -4,8 +4,8 @@ go:
   - master # This uses automatically the latest version of go
 
 install:
-  - mkdir -p ~/go/src/golang.org/x
-  - cd ~/go/src/golang.org/x
+  - mkdir -p $GOPATH/src/golang.org/x
+  - cd $GOPATH/src/golang.org/x
   - git clone https://github.com/golang/sync.git
   # go get -v github.com/gohugoio/hugo
   - go get -v github.com/spf13/hugo # This provides the latest version of Hugo to Travis CI

@@ -4,6 +4,7 @@ go:
   - master # This uses automatically the latest version of go
 
 install:
+  - pwd
   - mkdir -p $GOPATH/src/golang.org/x
   - cd $GOPATH/src/golang.org/x
   - git clone https://github.com/golang/sync.git
